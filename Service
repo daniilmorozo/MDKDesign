@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="Affordable and professional web design">
+
+	  <meta name="keywords" content="web design, affordable web design, professional web design">  	<meta name="author" content="Daniil Morozov">
+
+    <title>MDKDesign | Services</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="icon" href="img/favicon.png">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <div class="container">
+
+        <div id="branding">
+
+          <h1><span class="highlight">MDK</span>Design</h1>
+
+        </div>
+
+        <nav>
+
+          <ul>
+
+            <li><a href="index.html">Чем занимаюсь</a></li>
+
+            <li><a href="about.html">Обо мне</a></a></li>
+
+            <li class="current"><a href="services.html">Сервисы</a></li>
+
+          </ul>
+
+        </nav>
+
+      </div>
+
+    </header>
+
+    <section id="newsletter">
+
+      <div class="container">
+
+        <h1>Подпишитесь на нашу рассылку новостей</h1>
+
+        <form>
+
+          <input type="email" placeholder="Введите почту..." required>
+
+          <button type="submit" class="button_1">Подпишись</button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+    <section id="main">
+
+      <div class="container">
+
+        <article id="main-col">
+
+          <h1 class="page-title">Сервисы</h1>
+
+          <ul id="services">
+
+            <li>
+
+              <h3>Дизайн веб-сайта</h3>
+
+              <p>Web-дизайн — это процесс производства сайтов, который состоит из технической разработки, создания удобной структуры веб-страницы, графического оформления и передачи информации в сеть.</p>
+
+						  <p>Прайс: 70 000₽ - 200000</p>
+
+            </li>
+
+            <li>
+
+              <h3>Обслуживание веб-сайта</h3>
+
+              <p>Поддержка сайта — комплекс задач, который связан с обеспечением стабильной работы проекта. В большинстве случаев речь идёт о технической поддержке. Наполнение контентом, изменение дизайна и прочие непрофильные услуги веб-разработчики редко берут на себя, но я беру всё на себя. </p>
+
+						  <p>Прайс: 140000₽</p>
+
+            </li>
+
+            <li>
+
+              <h3>Веб хостинг</h3>
+
+              <p>Хостинг — это услуга, которая физически размещает страницы сайта на сервере. Иными словами, это удалённый круглосуточный компьютер, где хранится ваш сайт.</p>
+
+						  <p>Прайс: 2500₽</p>
+
+            </li>
+
+          </ul>
+
+        </article>
+
+        <aside id="sidebar">
+
+          <div class="dark">
+
+            <h3>Задать вопрос</h3>
+
+            <form class="quote">
+
+  						<div>
+
+  							<label>Имя</label><br>
+
+  							<input type="text" placeholder="Имя">
+
+  						</div>
+
+  						<div>
+
+  							<label>Почта</label><br>
+
+  							<input type="email" placeholder="Адрес почты">
+
+  						</div>
+
+  						<div>
+
+  							<label>Сообщение</label><br>
+
+  							<textarea placeholder="Сообщения"></textarea>
+
+  						</div>
+
+  						<button class="button_1" type="submit">Отправить</button>
+
+					</form>
+
+          </div>
+
+        </aside>
+
+      </div>
+
+    </section>
+
+    <footer>
+
+      <p>MDK Design; 2022</p>
+
+    </footer>
+
+  </body>
+
+</html>
